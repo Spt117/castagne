@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+.wallet-adapter-button-trigger {
+  background: rgb(100, 26, 230) !important;
+  border-radius: 8px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.wallet-adapter-dropdown-list,
+.wallet-adapter-button {
+  font-family: inherit !important;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #7a15e7, #adaeef );
+  -webkit-background-clip: text; /* For Safari and older versions of Chrome */
+  -moz-background-clip: text;    /* For Firefox (not supported in practice) */
+  background-clip: text;         /* Standard property */
+  -webkit-text-fill-color: transparent; /* For Safari and older versions of Chrome */
+  color: transparent;            /* For other browsers */
+}
